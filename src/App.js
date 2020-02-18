@@ -5,6 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 
 import './App.css';
 
@@ -21,14 +24,18 @@ class App extends React.Component {
 
       home: {
         title: 'Forward',
-        subtitle: '',
+        subTitle: 'This is Home subtitle',
         subText: 'See my projects below'
       },
       about: {
-        title: 'Forward'
+        title: 'Forward',
+        subTitle: 'This is About subtitle',
+        subText: 'About Subtext'
       },
       contact: {
-        title: 'Forward'
+        title: 'Forward',
+        subtitle: 'This is Contact subtitle',
+        subText: 'Contact Subtext'
       }
     };
   }
@@ -54,7 +61,37 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          Hello!
+          <Route
+            path='/'
+            exact
+            render={() => (
+              <HomePage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                subText={this.state.home.subText}
+              />
+            )}
+          />
+          <Route
+            path='/about'
+            render={() => (
+              <AboutPage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                subText={this.state.home.subText}
+              />
+            )}
+          />
+          <Route
+            path='/contact'
+            render={() => (
+              <ContactPage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                subText={this.state.home.subText}
+              />
+            )}
+          />
           <Footer />
         </Container>
       </Router>
