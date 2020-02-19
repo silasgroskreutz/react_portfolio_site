@@ -28,12 +28,12 @@ class App extends React.Component {
         subText: 'See my projects below'
       },
       about: {
-        title: 'Forward',
+        title: 'About Me',
         subTitle: 'This is About subtitle',
         subText: 'About Subtext'
       },
       contact: {
-        title: 'Forward',
+        title: 'Contact Title',
         subtitle: 'This is Contact subtitle',
         subText: 'Contact Subtext'
       }
