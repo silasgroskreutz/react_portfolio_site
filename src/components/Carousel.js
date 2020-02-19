@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 import dog1 from '../assets/images/dog1.jpg';
-import dog2 from '../assets/images/dog1.jpg';
+import dog2 from '../assets/images/dog2.jpg';
 import park from '../assets/images/park.jpg';
 
 export class Carousel extends Component {
@@ -14,7 +16,7 @@ export class Carousel extends Component {
           id: 0,
           title: 'Title 0',
           subTitle: 'subTitle0',
-          imgSrc: 'dog1',
+          imgSrc: dog1,
           link: 'https://www.google.com',
           selected: false
         },
@@ -22,7 +24,7 @@ export class Carousel extends Component {
           id: 1,
           title: 'Title 1',
           subTitle: 'subTitle1',
-          imgSrc: 'dog2',
+          imgSrc: dog2,
           link: 'https://www.Nintendo.com',
           selected: false
         },
@@ -30,7 +32,7 @@ export class Carousel extends Component {
           id: 2,
           title: 'Title 2',
           subTitle: 'subTitle2',
-          imgSrc: 'park',
+          imgSrc: park,
           link: 'https://www.msn.com',
           selected: false
         }
@@ -58,7 +60,7 @@ export class Carousel extends Component {
       return (
         <Card
           item={item}
-          onClick={e => this.handleCardClick(item.id, e)}
+          click={e => this.handleCardClick(item.id, e)}
           key={item.id}
         />
       );
@@ -66,7 +68,13 @@ export class Carousel extends Component {
   };
 
   render() {
-    return <div>Carousel works</div>;
+    return (
+      <Container fluid={true}>
+        <Row className='justify-content-around'>
+          {this.makeItems(this.state.items)}
+        </Row>
+      </Container>
+    );
   }
 }
 
