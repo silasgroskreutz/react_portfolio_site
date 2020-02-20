@@ -37,3 +37,13 @@ code {
   font-size: 16px;
   margin: 0px;
 }
+
+.success-msg {
+  color: rgb(34, 116, 62);
+  padding: 10px 15px;
+}
+
+.success-msg {
+  color: rgb(209, 50, 50);
+  padding: 10px 15px;
+}
