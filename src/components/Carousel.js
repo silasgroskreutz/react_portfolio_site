@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 import dog1 from '../assets/images/dog1.jpg';
 import dog2 from '../assets/images/dog2.jpg';
+import both1 from '../assets/images/both1.jpg';
 import park from '../assets/images/park.jpg';
 
 export class Carousel extends Component {
@@ -14,26 +15,30 @@ export class Carousel extends Component {
       items: [
         {
           id: 0,
-          title: 'Title 0',
-          subTitle: 'subTitle0',
+          title: '"The Princess"',
+          subTitle: 'Resting on "her" bed',
           imgSrc: dog1,
-          link: 'https://www.google.com',
           selected: false
         },
         {
           id: 1,
-          title: 'Title 1',
-          subTitle: 'subTitle1',
+          title: '"Baby Bear"',
+          subTitle: 'Always Happy',
           imgSrc: dog2,
-          link: 'https://www.Nintendo.com',
           selected: false
         },
         {
           id: 2,
-          title: 'Title 2',
-          subTitle: 'subTitle2',
+          title: 'On Watch',
+          subTitle: 'Backyard secured',
+          imgSrc: both1,
+          selected: false
+        },
+        {
+          id: 3,
+          title: 'Out together',
+          subTitle: 'Great way to start',
           imgSrc: park,
-          link: 'https://www.msn.com',
           selected: false
         }
       ]
