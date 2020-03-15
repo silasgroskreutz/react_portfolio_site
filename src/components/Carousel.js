@@ -30,14 +30,14 @@ export class Carousel extends Component {
         {
           id: 2,
           title: 'On Watch',
-          subTitle: 'Backyard secured',
+          subTitle: 'With the backyard secured',
           imgSrc: both1,
           selected: false
         },
         {
           id: 3,
           title: 'Out together',
-          subTitle: 'Great way to start',
+          subTitle: 'Great way to start day',
           imgSrc: park,
           selected: false
         }

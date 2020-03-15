@@ -26,9 +26,9 @@ class App extends React.Component {
       ],
 
       home: {
-        title: 'Forward',
-        subTitle: 'What can we build together?',
-        subText: 'See my projects below'
+        title: 'What can we build together',
+        subTitle: '2',
+        subText: '3'
       },
       about: {
         title: 'About Me',
@@ -36,7 +36,7 @@ class App extends React.Component {
         subText: 'About Subtext'
       },
       portfolio: { title: 'My portfolio' },
-      dogs: { title: 'My support crew' },
+      dogs: { title: 'Click to learn more' },
       contact: {
         title: 'Contact Title',
         subtitle: 'This is Contact subtitle',
@@ -64,7 +64,7 @@ class App extends React.Component {
                   Portfolio
                 </Link>
                 <Link className='nav-link' to='/dogs'>
-                  Pawsome Pics
+                  'Paw'some Pics
                 </Link>
                 <Link className='nav-link' to='/contact'>
                   Contact
