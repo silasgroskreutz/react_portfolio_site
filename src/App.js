@@ -31,17 +31,12 @@ class App extends React.Component {
         subText: '3'
       },
       about: {
-        title: 'About Me',
-        subTitle: 'This is About subtitle',
-        subText: 'About Subtext'
+        title: 'A little bit about me',
+        subText: 'Okay, very little...'
       },
       portfolio: { title: 'My portfolio' },
       dogs: { title: 'Click to learn more' },
-      contact: {
-        title: 'Contact Title',
-        subtitle: 'This is Contact subtitle',
-        subText: 'Contact Subtext'
-      }
+      contact: { subTitle: 'It never hurts to talk' }
     };
   }
   render() {
@@ -87,9 +82,9 @@ class App extends React.Component {
             path='/about'
             render={() => (
               <AboutPage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                subText={this.state.home.subText}
+                title={this.state.about.title}
+                subTitle={this.state.about.subTitle}
+                subText={this.state.about.subText}
               />
             )}
           />
@@ -107,9 +102,9 @@ class App extends React.Component {
             path='/contact'
             render={() => (
               <ContactPage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                subText={this.state.home.subText}
+                title={this.state.contact.title}
+                subTitle={this.state.contact.subTitle}
+                subText={this.state.contact.subText}
               />
             )}
           />

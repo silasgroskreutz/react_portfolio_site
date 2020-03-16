@@ -6,6 +6,7 @@ function AboutPage(props) {
   return (
     <div>
       <Hero title={props.title} />
+      <Hero title={props.subtext} />
 
       <Content>
         I am a software developer specializing in the MERN stack. Please click
