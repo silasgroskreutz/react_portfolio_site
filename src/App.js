@@ -26,9 +26,10 @@ class App extends React.Component {
       ],
 
       home: {
-        title: 'What can we build together',
-        subTitle: '2',
-        subText: '3'
+        title: 'Full Stack Web Developer',
+        subTitle:
+          'HTML/CSS | JavaScript | jQuery | React | Node JS | Express | Mongo DB',
+        subText: 'What can we build together?'
       },
       about: {
         title: 'A little bit about me',
@@ -36,7 +37,7 @@ class App extends React.Component {
       },
       portfolio: { title: 'My portfolio' },
       dogs: { title: 'Click to learn more' },
-      contact: { subTitle: 'It never hurts to talk' }
+      contact: { subTitle: 'Reach out to me' }
     };
   }
   render() {
@@ -59,7 +60,7 @@ class App extends React.Component {
                   Portfolio
                 </Link>
                 <Link className='nav-link' to='/dogs'>
-                  'Paw'some Pics
+                  "Paw"some Pics
                 </Link>
                 <Link className='nav-link' to='/contact'>
                   Contact
