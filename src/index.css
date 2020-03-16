@@ -5,18 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #419c54; /* fallback for old browsers */
+  background: #5bb66e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #ffffff,
-    #419c54,
-    #01491c
+    #5bb66e,
+    #009439
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #ffffff,
-    #419c54,
-    #01491c
+    #5bb66e,
+    #009439
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

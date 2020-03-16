@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import DogsPage from './pages/DogsPage';
 
@@ -40,6 +41,7 @@ class App extends React.Component {
       contact: { subTitle: 'Reach out to me' }
     };
   }
+
   render() {
     return (
       <Router>
@@ -88,6 +90,10 @@ class App extends React.Component {
                 subText={this.state.about.subText}
               />
             )}
+          />
+          <Route
+            path='/portfolio'
+            render={() => <PortfolioPage title={this.state.dogs.title} />}
           />
           <Route
             path='/dogs'

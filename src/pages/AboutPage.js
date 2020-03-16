@@ -5,8 +5,7 @@ import Content from '../components/Content';
 function AboutPage(props) {
   return (
     <div>
-      <Hero title={props.title} />
-      <Hero title={props.subText} />
+      <Hero title={props.title} subText={props.subText} />
 
       <Content>
         I am a software developer specializing in the MERN stack. Please click
@@ -15,7 +14,8 @@ function AboutPage(props) {
         technician and worked my way to serving as a Junior System
         Administrator. Being self-motivated and flexible were the keys to
         success while working my way up. If you would like someone with those
-        traits on your team, please feel free to contact me. <br /> <br />
+        traits on your team, or to learn more about me, please feel free to
+        contact me. <br /> <br />
         In my spare time, I am an avid dog walker. See the "Paw"some pics tab
         for my walking buddies.
       </Content>
