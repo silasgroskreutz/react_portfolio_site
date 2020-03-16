@@ -19,7 +19,8 @@ export default class PortfolioPage extends Component {
               <Card.Title>Dev Connector</Card.Title>
               <Card.Text>
                 Full Stack App built allowing users to sign in, personalize
-                profile, post blogs, comments and share with each other.
+                profile, post blogs, comments and share with each other. <br />
+                Built using React, React Redux, Node.JS, Express and MongoDB.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -35,7 +36,8 @@ export default class PortfolioPage extends Component {
               <Card.Title>NEStalgia Store</Card.Title>
               <Card.Text>
                 This card has supporting text below as a natural lead-in to
-                additional content.{' '}
+                additional content. <br />
+                Built using React.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -67,8 +69,8 @@ export default class PortfolioPage extends Component {
             <Card.Body>
               <Card.Title>Nintendo Quiz</Card.Title>
               <Card.Text>
-                One of my first projects built with only HTML, CSS and
-                Javascript. A 10 question quiz on Nintendo Trivia.
+                A 10 question quiz on Nintendo Trivia. One of my first projects
+                built with only HTML, CSS and Javascript.
               </Card.Text>
             </Card.Body>
             <Card.Footer>

@@ -8,7 +8,7 @@ function AboutPage(props) {
       <Hero title={props.title} subText={props.subText} />
 
       <Content>
-        I am a software developer specializing in the MERN stack. Please click
+        I am a software developer, specializing in the MERN stack. Please click
         on the portfolio tab to see some of my work. <br /> <br />
         Prior to working on software, I started my technology career as a level
         1 helpdesk technician and worked my way to serving as a Junior System
