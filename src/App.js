@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/ContactPage';
+//import ContactPage from './pages/ContactPage';
 import DogsPage from './pages/DogsPage';
 
 import './App.css';
@@ -64,9 +64,6 @@ class App extends React.Component {
                 <Link className='nav-link' to='/dogs'>
                   "Paw"some Pics
                 </Link>
-                <Link className='nav-link' to='/contact'>
-                  Contact
-                </Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -102,16 +99,6 @@ class App extends React.Component {
                 title={this.state.dogs.title}
                 subTitle={this.state.home.subTitle}
                 subText={this.state.home.subText}
-              />
-            )}
-          />
-          <Route
-            path='/contact'
-            render={() => (
-              <ContactPage
-                title={this.state.contact.title}
-                subTitle={this.state.contact.subTitle}
-                subText={this.state.contact.subText}
               />
             )}
           />
