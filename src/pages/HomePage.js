@@ -20,7 +20,11 @@ function HomePage(props) {
           url='https://github.com/silasgroskreutz'
           bgColor='#ffffff'
         />
-        <SocialIcon url='/contact' network='email' bgColor='#ffffff' />
+        <SocialIcon
+          url='mailto:silas.groskreutz@gmail.com'
+          network='email'
+          bgColor='#ffffff'
+        />
       </div>
     </div>
   );
