@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/silasgroskreutz/react_portfolio_site/static/css/main.51739510.chunk.css",
+    "main.js": "/silasgroskreutz/react_portfolio_site/static/js/main.09b178e2.chunk.js",
+    "main.js.map": "/silasgroskreutz/react_portfolio_site/static/js/main.09b178e2.chunk.js.map",
+    "runtime-main.js": "/silasgroskreutz/react_portfolio_site/static/js/runtime-main.b8f6d03f.js",
+    "runtime-main.js.map": "/silasgroskreutz/react_portfolio_site/static/js/runtime-main.b8f6d03f.js.map",
+    "static/css/2.89f067aa.chunk.css": "/silasgroskreutz/react_portfolio_site/static/css/2.89f067aa.chunk.css",
+    "static/js/2.161094af.chunk.js": "/silasgroskreutz/react_portfolio_site/static/js/2.161094af.chunk.js",
+    "static/js/2.161094af.chunk.js.map": "/silasgroskreutz/react_portfolio_site/static/js/2.161094af.chunk.js.map",
+    "index.html": "/silasgroskreutz/react_portfolio_site/index.html",
+    "precache-manifest.b1d7842ccdb71f0c6f923c651778ccb0.js": "/silasgroskreutz/react_portfolio_site/precache-manifest.b1d7842ccdb71f0c6f923c651778ccb0.js",
+    "service-worker.js": "/silasgroskreutz/react_portfolio_site/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/silasgroskreutz/react_portfolio_site/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.51739510.chunk.css.map": "/silasgroskreutz/react_portfolio_site/static/css/main.51739510.chunk.css.map",
+    "static/js/2.161094af.chunk.js.LICENSE.txt": "/silasgroskreutz/react_portfolio_site/static/js/2.161094af.chunk.js.LICENSE.txt",
+    "static/media/both1.jpg": "/silasgroskreutz/react_portfolio_site/static/media/both1.0dc46cbc.jpg",
+    "static/media/devcon.png": "/silasgroskreutz/react_portfolio_site/static/media/devcon.e3a9f82f.png",
+    "static/media/dog1.jpg": "/silasgroskreutz/react_portfolio_site/static/media/dog1.8a2065cf.jpg",
+    "static/media/dog2.jpg": "/silasgroskreutz/react_portfolio_site/static/media/dog2.34cf4164.jpg",
+    "static/media/fdaapi.png": "/silasgroskreutz/react_portfolio_site/static/media/fdaapi.3dd1ab8e.png",
+    "static/media/ninquiz.png": "/silasgroskreutz/react_portfolio_site/static/media/ninquiz.7b52fc4a.png",
+    "static/media/ninstore.png": "/silasgroskreutz/react_portfolio_site/static/media/ninstore.d7690176.png",
+    "static/media/park.jpg": "/silasgroskreutz/react_portfolio_site/static/media/park.ef29539c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8f6d03f.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.161094af.chunk.js",
+    "static/css/main.51739510.chunk.css",
+    "static/js/main.09b178e2.chunk.js"
+  ]
+}
