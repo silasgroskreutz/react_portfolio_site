@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import { SocialIcon } from 'react-social-icons';
+import Button from 'react-bootstrap/Button';
+import './portfoliopage.css';
 
 import devcon from '../assets/images/devcon.png';
 import ninstore from '../assets/images/ninstore.png';
@@ -23,11 +25,17 @@ export default class PortfolioPage extends Component {
                 Built using React, React Redux, Node.JS, Express and MongoDB.
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
+            <Card.Footer className='cardfooter'>
               <SocialIcon
                 url='https://github.com/silasgroskreutz/developerconnector'
                 bgColor='#000000'
               />
+              <Button
+                variant='success'
+                href='https://polar-island-90326.herokuapp.com/'
+              >
+                Site Link
+              </Button>
             </Card.Footer>
           </Card>
           <Card border='dark'>
@@ -40,11 +48,17 @@ export default class PortfolioPage extends Component {
                 Built using React.
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
+            <Card.Footer className='cardfooter'>
               <SocialIcon
                 url='https://github.com/silasgroskreutz/NEStalgia_store'
                 bgColor='#000000'
               />
+              <Button
+                variant='success'
+                href='https://boring-saha-f9ef00.netlify.com/'
+              >
+                Site Link
+              </Button>
             </Card.Footer>
           </Card>
           <Card border='dark'>
@@ -57,11 +71,17 @@ export default class PortfolioPage extends Component {
                 than the first to show that equal height action.
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
+            <Card.Footer className='cardfooter'>
               <SocialIcon
                 url='https://github.com/silasgroskreutz/FDA_pet_med_adverse'
                 bgColor='#000000'
               />
+              <Button
+                variant='success'
+                href='https://silasgroskreutz.github.io/FDA_pet_med_adverse/'
+              >
+                Site Link
+              </Button>
             </Card.Footer>
           </Card>
           <Card border='dark'>
@@ -73,11 +93,17 @@ export default class PortfolioPage extends Component {
                 built with only HTML, CSS and Javascript.
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
+            <Card.Footer className='cardfooter'>
               <SocialIcon
                 url='https://github.com/silasgroskreutz/quizfinal'
                 bgColor='#000000'
               />
+              <Button
+                variant='success'
+                href='https://silasgroskreutz.github.io/quizfinal/'
+              >
+                Site Link
+              </Button>
             </Card.Footer>
           </Card>
         </CardDeck>
