@@ -9,6 +9,7 @@ import devcon from '../assets/images/devcon.png';
 import ninstore from '../assets/images/ninstore.png';
 import fdaapi from '../assets/images/fdaapi.png';
 import ninquiz from '../assets/images/ninquiz.png';
+import d3Budget from '../assets/images/d3_budget_tracker.png';
 
 export default class PortfolioPage extends Component {
   render() {
@@ -62,13 +63,37 @@ export default class PortfolioPage extends Component {
             </Card.Footer>
           </Card>
           <Card border='dark'>
+            <Card.Img variant='top' src={d3Budget} />
+            <Card.Body>
+              <Card.Title>Tail-Wagger Tracker (budget app)</Card.Title>
+              <Card.Text>
+                This is simple budget app build using D3.js and Firebase. Build
+                using course instruction listed in readme in repository.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className='cardfooter'>
+              <SocialIcon
+                url='https://github.com/silasgroskreutz/d3_tailwagger_tracker'
+                bgColor='#000000'
+              />
+              <Button
+                variant='success'
+                href='https://silasgroskreutz.github.io/d3_tailwagger_tracker/'
+              >
+                Site Link
+              </Button>
+            </Card.Footer>
+          </Card>
+          <Card border='dark'>
             <Card.Img variant='top' src={fdaapi} />
             <Card.Body>
               <Card.Title>Pet Med Adverse Reaction Search</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                Project to demonstrate API and FETCH skills. I came up with this
+                idea because my wife worked in a Vet clinic and I thought it
+                might be useful to search adverse drug reactions for animals.
+                Also, I tied in wikipedia search to return some information on
+                the drug searched as well.
               </Card.Text>
             </Card.Body>
             <Card.Footer className='cardfooter'>
