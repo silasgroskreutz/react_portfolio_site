@@ -30,10 +30,14 @@ export default class PortfolioPage extends Component {
               <SocialIcon
                 url='https://github.com/silasgroskreutz/developerconnector'
                 bgColor='#000000'
+                target='_blank'
+                rel='noopener noreferrer'
               />
               <Button
                 variant='success'
                 href='https://polar-island-90326.herokuapp.com/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 Site Link
               </Button>
@@ -53,10 +57,14 @@ export default class PortfolioPage extends Component {
               <SocialIcon
                 url='https://github.com/silasgroskreutz/NEStalgia_store'
                 bgColor='#000000'
+                target='_blank'
+                rel='noopener noreferrer'
               />
               <Button
                 variant='success'
                 href='https://boring-saha-f9ef00.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 Site Link
               </Button>
@@ -75,10 +83,14 @@ export default class PortfolioPage extends Component {
               <SocialIcon
                 url='https://github.com/silasgroskreutz/d3_tailwagger_tracker'
                 bgColor='#000000'
+                target='_blank'
+                rel='noopener noreferrer'
               />
               <Button
                 variant='success'
                 href='https://silasgroskreutz.github.io/d3_tailwagger_tracker/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 Site Link
               </Button>
@@ -100,10 +112,14 @@ export default class PortfolioPage extends Component {
               <SocialIcon
                 url='https://github.com/silasgroskreutz/FDA_pet_med_adverse'
                 bgColor='#000000'
+                target='_blank'
+                rel='noopener noreferrer'
               />
               <Button
                 variant='success'
                 href='https://silasgroskreutz.github.io/FDA_pet_med_adverse/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 Site Link
               </Button>
@@ -122,10 +138,14 @@ export default class PortfolioPage extends Component {
               <SocialIcon
                 url='https://github.com/silasgroskreutz/quizfinal'
                 bgColor='#000000'
+                target='_blank'
+                rel='noopener noreferrer'
               />
               <Button
                 variant='success'
                 href='https://silasgroskreutz.github.io/quizfinal/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 Site Link
               </Button>
